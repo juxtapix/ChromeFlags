@@ -949,9 +949,11 @@ _Service URL for Online Wallet service. Used as the base url for Online Wallet A
 _Enable the "native services" feature of web-intents._
 
 **--window-position**   
-_Specify the initial window position: **--window-position=x,y**   
+_Specify the initial window position: --window-position=x,y_
+
 _**--window-size**   
-_Specify the initial window size: **--window-size=w,h**   
+_Specify the initial window size: --window-size=w,h_
+
 _**--winhttp-proxy-resolver**   
 _Uses WinHTTP to fetch and evaluate PAC scripts. Otherwise the default is to use Chromium's network stack to fetch, and V8 to evaluate._
 
