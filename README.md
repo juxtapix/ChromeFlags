@@ -14,7 +14,7 @@ chromium-browser --fullscreen --kiosk
 _On Windows:_
 ```bash
 start chrome --fullscreen --kiosk
-```
+```   
      
      
 A complete list of Flags can be found at: http://peter.sh/examples/?/chromium-switches.html
