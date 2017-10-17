@@ -22,7 +22,7 @@ A complete list of Flags can be found at: http://peter.sh/examples/?/chromium-sw
 ## Common Flags:
 
 
-** --action-box **  
+**--action-box**  
 _Enables or disables the "action box" UI in the toolbar._
 
 ** --allow-cross-origin-auth-prompt **  
