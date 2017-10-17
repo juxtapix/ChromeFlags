@@ -1177,6 +1177,6 @@ _Any pattern containing a forward or backward slash will be tested against the w
 **--wait-for-debugger**   
 _Will wait for 60 seconds for a debugger to come to attach to the process._
 
-**  Compilation of Flags / Switches by:**   
+**Compilation of Flags / Switches by:**  
 Jason Milkins -  https://github.com/jasonm23  
 Peter Beverloo - https://github.com/beverloo
