@@ -61,8 +61,9 @@ _Specifies that the associated value should be launched in "application" mode._
 _Flag to enable apps_devtool app._
 
 **--app-window-size**   
-_Specifies the initial size for application windows launched with **--app. --app-window-size=w,h**   
-_**--app-notify-channel-server-url**   
+_Specifies the initial size for application windows launched with --app. --app-window-size=w,h_   
+
+**--app-notify-channel-server-url**   
 _A URL for the server which assigns channel ids for server pushed app notifications._
 
 **--apps-checkout-url**   
@@ -78,8 +79,9 @@ _A setting to cause extension/app installs from the webstore skip the normal con
 _The update url used by gallery/webstore extensions._
 
 **--app-mode-oauth-token**   
-_Value of OAuth2 refresh token for **--force-app-mode.**   
-_**--apps-new-install-bubble**   
+_Value of OAuth2 refresh token for --force-app-mode._  
+
+**--apps-new-install-bubble**   
 _Whether to always use the new app install bubble when installing an app._
 
 **--apps-no-throb**   
@@ -149,12 +151,13 @@ _Toggles a new version of the content settings dialog in options._
 _The Country we should use. This is normally obtained from the operating system during first run and cached in the preferences afterwards. This is a string value, the 2 letter code from ISO 3166-1._
 
 **--crash-on-hang-threads**   
-_Comma-separated list of BrowserThreads that cause browser process to crash if the given browser thread is not responsive. UI,IO,DB,FILE,CACHE are the list of BrowserThreads that are supported._
+_Comma-separated list of BrowserThreads that cause browser process to crash if the given browser thread is not responsive. UI,IO,DB,FILE,CACHE are the list of BrowserThreads that are supported.
 
 For example:
 
-**--crash-on-hang-threads=UI:3:18,IO:3:18 --> Crash the browser if UI or IO is not responsive for 18 seconds and the number of browser threads that are responding is less than or equal to 3.**   
-_**--debug-enable-frame-toggle**   
+--crash-on-hang-threads=UI:3:18,IO:3:18 --> Crash the browser if UI or IO is not responsive for 18 seconds and the number of browser threads that are responding is less than or equal to 3._   
+
+**--debug-enable-frame-toggle**   
 _Some platforms like ChromeOS default to empty desktop. Browser tests may need to add this switch so that at least one browser instance is created on startup._
 
 **--debug-packed-apps**   
@@ -356,8 +359,9 @@ _Enables Google Now integration._
 _Enable Instant extended API._
 
 **--enable-ipv6**   
-_Enables IPv6 support, even if probes suggest that it may not be fully supported. Some probes may require internet connections, and this flag will allow support independent of application testing. This flag overrides **--disable-ipv6 which appears elswhere in this file.**   
-_**--enable-ipc-fuzzing**   
+_Enables IPv6 support, even if probes suggest that it may not be fully supported. Some probes may require internet connections, and this flag will allow support independent of application testing. This flag overrides --disable-ipv6 which appears elswhere in this file._   
+
+**--enable-ipc-fuzzing**   
 _Enables the IPC fuzzer for reliability testing
 
 **--enable-ip-pooling**   
@@ -412,8 +416,9 @@ _Enables password generation when we detect that the user is going through accou
 _Enables the installation and usage of Portable Native Client._
 
 **--enable-profiling**   
-_Enables tracking of tasks in profiler for viewing via about:profiler. To predominantly disable tracking (profiling), use the command line switch: **--enable-profiling=0 Some tracking will still take place at startup, but it will be turned off during chrome_browser_main.**   
-_**--enable-query-extraction**   
+_Enables tracking of tasks in profiler for viewing via about:profiler. To predominantly disable tracking (profiling), use the command line switch: --enable-profiling=0 Some tracking will still take place at startup, but it will be turned off during chrome_browser_main._
+
+**--enable-query-extraction**   
 _Enables query extraction in the omnibox._
 
 **--enable-quic**   
@@ -510,7 +515,7 @@ _Enables grouping websites by domain and filtering them by period._
 _Specifies which page will be displayed in newly-opened tabs. We need this for testing purposes so that the UI tests don't depend on what comes up for http://google.com._
 
 **--host-rules**   
-_Comma-separated list of rules that control how hostnames are mapped._
+_Comma-separated list of rules that control how hostnames are mapped.
 
 For example:
 
@@ -623,8 +628,9 @@ _By default, an https page can load images, fonts or frames from an http page. T
 _Don't record/playback events when using record & playback._
 
 **--no-experiments**   
-_Disables all experiments set on chrome:flags. Does not disable chrome:flags itself. Useful if an experiment makes chrome crash at startup: One can start chrome with **--no-experiments, disable the problematic lab at chrome:flags and then restart chrome without this switch again.**   
-_**--no-first-run**   
+_Disables all experiments set on chrome:flags. Does not disable chrome:flags itself. Useful if an experiment makes chrome crash at startup: One can start chrome with --no-experiments, disable the problematic lab at chrome:flags and then restart chrome without this switch again._
+
+**--no-first-run**   
 _Skip First Run tasks, whether or not it's actually the First Run. Overridden by kForceFirstRun._
 
 Also drops the First Run beacon so that First Run will not occur in subsequent runs as well._
@@ -696,14 +702,14 @@ _Report the given version for the PPAPI (Pepper) Flash. The version should be nu
 _Triggers prerendering of pages from suggestions in the omnibox. Only has an effect when Instant is either disabled or restricted to search, and when prerender is enabled._
 
 **--prerender**   
-_These are the values the kPrerenderFromOmnibox switch may have, as in **--prerender-from-omnibox=auto.**   
+_These are the values the kPrerenderFromOmnibox switch may have, as in --prerender-from-omnibox=auto.
 _auto Allow field trial selection._
 disabled No prerendering._
 enabled Guaranteed prerendering._
 Controls speculative prerendering of pages, and content prefetching. Both are dispatched from elements._
 
 **--print-raster**   
-_These are the values the kPrerenderMode switch may have, as in **--prerender=auto.**   
+_These are the values the kPrerenderMode switch may have, as in --prerender=auto.
 _auto Allow field trial selection in both prerender and prefetch._
 disabled No prerendering or prefetching._
 enabled Both prerendering and prefetching._
