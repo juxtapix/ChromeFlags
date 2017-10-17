@@ -18,7 +18,8 @@ start chrome --fullscreen --kiosk
 
 A complete list of Flags can be found at: http://peter.sh/examples/?/chromium-switches.html
 
-
+    
+    
 ## Common Flags:
 
 
