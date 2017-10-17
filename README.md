@@ -951,10 +951,10 @@ _Enable the "native services" feature of web-intents._
 **--window-position**   
 _Specify the initial window position: --window-position=x,y_
 
-_**--window-size**   
+**--window-size**   
 _Specify the initial window size: --window-size=w,h_
 
-_**--winhttp-proxy-resolver**   
+**--winhttp-proxy-resolver**   
 _Uses WinHTTP to fetch and evaluate PAC scripts. Otherwise the default is to use Chromium's network stack to fetch, and V8 to evaluate._
 
 When plugin installation is enabled
