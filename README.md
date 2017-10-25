@@ -5,15 +5,15 @@ A quick way to launch Google Chrome or Chromium from the command line with flags
 
 _On OS X:_
 ```bash
-open /Applications/Google\ Chrome.app --fullscreen --kiosk
+open /Applications/Google\ Chrome.app --app --fullscreen --kiosk
 ```
 _On Linux:_
 ```bash
-chromium-browser --fullscreen --kiosk
+chromium-browser --app --fullscreen --kiosk
 ```
 _On Windows:_
 ```bash
-start chrome --fullscreen --kiosk
+start chrome --app --fullscreen --kiosk
 ```   
      
      
