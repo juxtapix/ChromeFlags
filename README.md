@@ -17,7 +17,7 @@ start chrome --app --fullscreen --kiosk
 ```   
      
      
-A complete list of Flags can be found at:
+A complete list of Flags can be found at:  
 http://peter.sh/examples/?/chromium-switches.html
 
     
