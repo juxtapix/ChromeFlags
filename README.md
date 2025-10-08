@@ -17,10 +17,7 @@ start chrome --app --fullscreen --kiosk
 ```   
      
      
-A complete list of Flags can be found at:  
-http://peter.sh/examples/?/chromium-switches.html
-
-    
+ 
     
 ## Common Flags:
 
@@ -972,6 +969,9 @@ When plugin installation is enabled
 _Specifies a custom URL for fetching plug-ins metadata. Used for testing._
 
 ---
+
+A complete list of Flags can be found at:  
+http://peter.sh/examples/?/chromium-switches.html
 
 **Compilation of Flags / Switches by:**  
 Jason Milkins -  https://github.com/jasonm23  
